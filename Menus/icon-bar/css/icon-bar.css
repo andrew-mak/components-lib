@@ -1,0 +1,31 @@
+
+nav {
+  width: 100%;
+
+  background-color: darkgrey;
+}
+
+.container {
+  display: flex;
+}
+
+.container a {
+  display: inline-block;
+  margin: 0;
+  padding: 16px 32px;
+
+  font-size: 52px;
+  color: white;
+  text-decoration: none;
+
+  background-color: brown;
+}
+
+.container a:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.banner {
+  background-color: rgb(138, 36, 36);
+  width: 100%;
+}
