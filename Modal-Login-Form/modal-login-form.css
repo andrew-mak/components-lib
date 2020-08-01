@@ -1,15 +1,14 @@
-
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 10px;
   border: none;
   cursor: pointer;
-
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   padding: 8px 14px;
   width: 100%;
 }
@@ -39,7 +38,6 @@ input[type=text], input[type=password] {
 }
 
 .input-wrapper {
-  
   margin: 16px 20px;
   padding: 5px 2px;
 }
