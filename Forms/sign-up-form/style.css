@@ -1,0 +1,12 @@
+#signup-form {
+  border:1px solid #ccc;
+}
+
+.container {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: auto;
+}
