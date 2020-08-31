@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="modal-login-form.css">
+  <title>Login Form</title>
+</head>
+<body>
+
+  <h2>Modal Login Form</h2>
+
+  <button onclick="document.querySelector('.modal-container').classList.add('show-modal')">Login</button>
+
+  <div class="modal-container">
+
+    <form action="/action_page.php" method="post" class="modal-content animate" id="login-form">
+    
+      <div class="imgcontainer">
+      <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="User picture" width="120px">
+      <span id="close-modal-cross" title="Close Modal" onclick="document.querySelector('.modal-container').classList.remove('show-modal')" style="cursor: pointer;">&times;</span>
+    </div>
+
+
+    <div class="input-wrapper">
+      <label for="uname">User Name:</label>
+      <input type="text" name="uname" placeholder="Enter User Name" required>
+      <label for="upassword">User Password:</label>
+      <input type="password" name="upassword" placeholder="Enter User Password">
+      <button type="submit">Login</button>
+      <input type="checkbox" name="remember" id="remember" required>
+      <label for="remember">Remember me</label>
+    </div>
+
+    <div class="login-modal-form-footer">
+      <button type="button" id="login-cancel-button" onclick="document.querySelector('.modal-container').classList.remove('show-modal')">Cancel</button>
+      <span>Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+</div>  
+</body>
+</html>
